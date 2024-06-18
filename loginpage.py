@@ -75,7 +75,7 @@ def login():
 
 @app.route('/wifiprovision')
 @login_required
-def wifilogin():
+def wifiprovision():
     return render_template('wifiprovision.html')
 
 
