@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WiFi Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Connect to WiFi Network</h1>
+        <form action="/wifisecrets" method="post">
+            <label for="ssid">WiFi SSID:</label><br>
+            <input type="text" id="ssid" name="ssid"><br>
+            <label for="password">WiFi Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <a href="/logout">Logout</a>
+    </div>
+</body>
+</html>
