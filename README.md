@@ -1,2 +1,2 @@
-# wifiprovisioninterface
-wifi provisioning interface for raspberry pi
+# WiFi Provisioning Interface
+A provisioning interface for Raspberry Pi
